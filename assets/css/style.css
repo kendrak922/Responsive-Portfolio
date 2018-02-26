@@ -245,19 +245,20 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px){
-  
+  body{
+    height: auto;
+    margin:15px;
+  }
   .main-content{
     height:auto;
-    max-width: 100%; 
+    margin-bottom: 30px;
+    margin-left: 30px;
    
   }
   .sidebar{
-    float:center;
-    width: 750px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    max-width: 100%;     
+    margin-right: 30px;
+    max-width: 90%; 
+    display: inline-block;   
   }
   .work{
     width: auto;
@@ -272,42 +273,53 @@ input[type=submit] {
 @media screen and (max-width: 640px){
   body{
     height: auto;
-    margin:10px;
+    margin:15px;
   }
   #masthead{
     position: static;
+    margin: 0;
 
   }
   #logo{
     width: 100%
   }
-  .nav a{
-    text-align: center;
-    line-height: 10px;
-    width: 100%;
-    
-  
-  }
+ nav {
+  float: none;
+  margin-top: 5px;
+  padding-left: 85px;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 5px;
+  margin-left: 5px;
+  line-height: 10px;
+}
   .main-content{
-    height:auto;
-    margin-bottom: 30px;
+    height: auto;
+    margin-top: 1px;
   }
   .sidebar{ 
     margin: 0 10px 10px 0;
     max-width: 90%; 
     display: inline-block;
-  }
+  } 
 .work{
   height: auto;
   width: auto;
-  float: left;
-  padding-left: 10px;}
+  float: none;
+  padding: 10px;
+  }
 .work h3 {
-  width: 90%;
+  width: 80%;
+  /* position: center; */
+  font-weight: 200px;
+  line-height: 20px;
+  position: absolute;
+  margin:0px;
 }
 .work img{
  width:90%;
  height:20%;
-
 }
 }
