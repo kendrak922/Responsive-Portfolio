@@ -238,10 +238,16 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px){
-#main-content{
+  body{
+    height: auto;
+    margin:15px;
+  }
+  .main-container{
   margin-top: 10px;
-  overflow: auto;
+  width: 30%;
+  height:auto;
 }
+
 }
 
 @media screen and (max-width: 768px){
@@ -249,25 +255,23 @@ input[type=submit] {
     height: auto;
     margin:15px;
   }
-  .main-content{
-    height:auto;
-    margin-bottom: 30px;
-    margin-left: 30px;
-   
-  }
+.main-section{
+  width: 100%;
+  max-width: 768px;
+  float:none;
+  margin:0;
+}
   .sidebar{
-    margin-right: 30px;
-    max-width: 90%; 
-    display: inline-block;   
+    max-width: 100%;
+    float:none;
+    margin:0;
   }
-  .work{
-    width: auto;
-    text-align: center;
-    margin: 10px;
+
+  .work {
+    width: 100%;
+    height: auto;
   }
-  .work img{
-    margin: 20px;
-  }
+ 
 }
 
 @media screen and (max-width: 640px){
@@ -279,6 +283,9 @@ input[type=submit] {
     position: static;
     margin: 0;
 
+  }
+  #main-container {
+    padding-top: 10px;
   }
   #logo{
     width: 100%
@@ -295,14 +302,10 @@ nav a {
   margin-left: 5px;
   line-height: 10px;
 }
-  .main-content{
-    height: auto;
-    margin-top: 1px;
-  }
   .sidebar{ 
-    margin: 0 10px 10px 0;
+    margin: 10px 10px 10px 0;
     max-width: 90%; 
-    display: inline-block;
+    float: none;
   } 
 .work{
   height: auto;
@@ -312,7 +315,6 @@ nav a {
   }
 .work h3 {
   width: 80%;
-  /* position: center; */
   font-weight: 200px;
   line-height: 20px;
   position: absolute;
