@@ -43,6 +43,7 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #ddd;
+  font-family: 'Pacifico', cursive;
 }
 
 h2,
@@ -67,7 +68,7 @@ h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Pacifico', cursive;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
@@ -138,6 +139,10 @@ h3,
 .social:last-child {
   margin-right: 0;
 }
+h2{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
 
 /* main */
 
@@ -190,6 +195,10 @@ h3,
   background: #7cb342;
   border-bottom: 0;
 }
+.work a{
+  color: black;
+}
+
 
 .auth-image {
   float: left;
